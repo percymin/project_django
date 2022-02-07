@@ -6,6 +6,7 @@ class PostList(ListView):
     model = Post
     ordering = '-pk'
 
+
 class PostDetail(DetailView):
     model = Post
 
