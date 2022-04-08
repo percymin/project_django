@@ -96,7 +96,8 @@
                 {% for comment in post.comment_set.iterator %}
                 <!-- Single comment-->
                 <div class="d-flex" id="comment-{{ comment.pk }}">
-                    <div class="flex-shrink-0"><img class="rounded-circle" src="{{ comment.get_avatar_url }}" alt="{{ comment.author }}" width="60px" ></div>                    <div class="ms-3">
+                    <div class="flex-shrink-0"><img class="rounded-circle" src="{{ comment.get_avatar_url }}" alt="{{ comment.author }}" width="60px" ></div>
+                    <div class="ms-3">
                         {% if user.is_authenticated and comment.author == user %}
                             <div class="float-right">
                                 <a role="button"
