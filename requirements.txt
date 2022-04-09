@@ -32,6 +32,7 @@ pickleshare==0.7.5
 Pillow==9.0.1
 platformdirs==2.5.0
 prompt-toolkit==3.0.28
+psycopg2-binary==2.9.3
 pure-eval==0.2.2
 pycparser==2.21
 Pygments==2.11.2
@@ -46,7 +47,7 @@ sqlparse==0.4.2
 stack-data==0.2.0
 tomli==2.0.1
 traitlets==5.1.1
-typing-extensions==4.1.1
+typing_extensions==4.1.1
 tzdata==2021.5
 urllib3==1.26.8
 wcwidth==0.2.5
